@@ -41,7 +41,6 @@ p{
 }
 section {
     height: 600px;
-    margin-bottom: 20px;
 }
 .name-highlight {
     font-weight: 900;
@@ -53,11 +52,26 @@ section {
     background-size: 100%;
     background-position: center;
 }
+.bio-image {
+    width: 30%;
+    float: left;
+    margin: 6%;
+    padding-left: 6%;
+}
+.bio-image img {
+    width: 100%;
+}
+.bio-text {
+    width: 30%;
+    float: left;
+    margin: 6%;
+}
 .work-section {
     background-image: url("images/latest-work-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height:500px;
 
 }
 .work-section h1 {
